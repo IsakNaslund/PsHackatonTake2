@@ -1,7 +1,14 @@
 Isak
+<<<<<<< HEAD
 
 Carl här händer grejer
+=======
+Jag har ändrat lite här
+haha
+Carl
+>>>>>>> origin/master
 
 Emil
 
 Pålen
+PålenÄrFanBästIStan
