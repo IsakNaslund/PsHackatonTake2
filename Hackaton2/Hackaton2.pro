@@ -15,10 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
         carlclass.cpp \
-        isaks.cpp
+        isaks.cpp \
+    palenclass.cpp
 
 HEADERS  += mainwindow.h \
     carlclass.h \
-    isaks.h
+    isaks.h \
+    palenclass.h
 
 FORMS    += mainwindow.ui

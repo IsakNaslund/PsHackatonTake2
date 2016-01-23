@@ -15,7 +15,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pButton_clicked()
 {
-    ui->textBrowser->append("macarena");
+    PalenClass palen;
+    ui->textBrowser->append(palen.Text());
 }
 void MainWindow::on_iButton_clicked()
 {

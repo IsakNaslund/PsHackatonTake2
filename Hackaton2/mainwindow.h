@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "isaks.h"
+#include "palenclass.h"
 
 namespace Ui {
 class MainWindow;

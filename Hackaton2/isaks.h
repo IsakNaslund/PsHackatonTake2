@@ -13,4 +13,9 @@ public:
     QString Text();
 };
 
+
+
+
+
+
 #endif // ISAKS_H
