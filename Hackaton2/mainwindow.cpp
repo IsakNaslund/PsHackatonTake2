@@ -23,3 +23,8 @@ void MainWindow::on_iButton_clicked()
 
     ui->textBrowser->append(isak.Text());
 }
+
+void MainWindow::on_cButton_clicked()
+{
+    ui->textBrowser->append("Eeeeeeeeeey!");
+}

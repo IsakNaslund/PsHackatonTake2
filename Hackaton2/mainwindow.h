@@ -20,6 +20,8 @@ private slots:
     void on_pButton_clicked();
     void on_iButton_clicked();
 
+    void on_cButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
