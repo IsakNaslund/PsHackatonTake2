@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    isaks.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    isaks.h
 
 FORMS    += mainwindow.ui
