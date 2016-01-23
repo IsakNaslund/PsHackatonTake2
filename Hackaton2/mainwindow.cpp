@@ -13,6 +13,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_pButton_clicked()
+{
+    ui->textBrowser->append("macarena");
+}
 void MainWindow::on_iButton_clicked()
 {
 

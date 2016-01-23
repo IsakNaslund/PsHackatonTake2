@@ -16,6 +16,7 @@ public:
     ~MainWindow();
 
 private slots:
+    void on_pButton_clicked();
     void on_iButton_clicked();
 
 private:
