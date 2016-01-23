@@ -19,5 +19,7 @@ void MainWindow::on_pButton_clicked()
 }
 void MainWindow::on_iButton_clicked()
 {
+    Isaks isak;
 
+    ui->textBrowser->append(isak.Text());
 }

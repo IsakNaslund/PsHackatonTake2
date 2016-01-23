@@ -3,7 +3,7 @@
 Isaks::Isaks()
 {
     a=5;
-    text ="Testis";
+    text ="Skolans bästa grabbar";
 }
 
 int Isaks::Number()
