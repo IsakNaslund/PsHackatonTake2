@@ -22,10 +22,16 @@ void MainWindow::on_iButton_clicked()
 {
     Isaks isak;
 
-    ui->textBrowser->append(isak.Text());
+    for (int i=0; i<isak.Number(); i++)
+    {
+        ui->textBrowser->append(isak.Text());
+    }
 }
 
 void MainWindow::on_cButton_clicked()
 {
-    ui->textBrowser->append("Eeeeeeeeeey!");
+    carlClass cc;
+    cc.setText("Eeeeeeeeeeey!");
+
+    ui->textBrowser->append(cc.getText());
 }
