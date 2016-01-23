@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "isaks.h"
+#include "carlclass.h"
 
 namespace Ui {
 class MainWindow;

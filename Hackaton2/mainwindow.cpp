@@ -26,5 +26,8 @@ void MainWindow::on_iButton_clicked()
 
 void MainWindow::on_cButton_clicked()
 {
-    ui->textBrowser->append("Eeeeeeeeeey!");
+    carlClass cc;
+    cc.setText("Eeeeeeeeeeey!");
+
+    ui->textBrowser->append(cc.getText());
 }
