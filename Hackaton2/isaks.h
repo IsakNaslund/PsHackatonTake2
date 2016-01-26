@@ -2,18 +2,21 @@
 #define ISAKS_H
 
 #include "qstring.h"
+#include "vector"
 
 class Isaks
 {
-    int a;
+
     QString text;
+    std::vector<QString> textList;
+
 public:
     Isaks();
     int Number();
     QString Text();
 };
 
-
+static int a = 0;
 
 
 

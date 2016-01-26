@@ -22,10 +22,12 @@ void MainWindow::on_iButton_clicked()
 {
     Isaks isak;
 
-    for (int i=0; i<isak.Number(); i++)
+          ui->textBrowser->append(isak.Text());
+
+    /*for (int i=0; i<isak.Number(); i++)
     {
         ui->textBrowser->append(isak.Text());
-    }
+    }*/
 }
 
 void MainWindow::on_cButton_clicked()
