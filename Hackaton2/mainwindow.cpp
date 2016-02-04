@@ -22,7 +22,7 @@ void MainWindow::on_iButton_clicked()
 {
     Isaks isak;
 
-          ui->textBrowser->append(isak.Text());
+    ui->textBrowser->append(isak.Text());
 
     /*for (int i=0; i<isak.Number(); i++)
     {
